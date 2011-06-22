@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+"""
+py-subtitle
+by Bart Nagel <bart@tremby.net>
+"""
+
 import pygtk
 pygtk.require("2.0")
 import gtk
