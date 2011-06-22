@@ -164,7 +164,8 @@ class Base:
 			filename = chooser.get_filename()
 		chooser.destroy()
 
-		self.openwavfile(filename)
+		if filename is not None:
+			self.openwavfile(filename)
 
 	def action_save(self, widget, data=None):
 		# TODO
