@@ -147,7 +147,6 @@ class Base:
 		filefilter = gtk.FileFilter()
 		filefilter.set_name("Wave files")
 		filefilter.add_pattern("*.wav")
-		filefilter.add_pattern("*.wav")
 		filefilter.add_mime_type("audio/wave")
 		filefilter.add_mime_type("audio/wav")
 		filefilter.add_mime_type("audio/x-wav")
